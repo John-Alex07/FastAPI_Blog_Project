@@ -1,5 +1,6 @@
 from pydantic import BaseModel, EmailStr
 from typing import List, Optional
+from datetime import datetime
 
 class User(BaseModel):
     username: str
@@ -15,6 +16,7 @@ class BlogPost(BaseModel):
     content: str
     author: str
     tags: List[str] = []
+    created_at: datetime = datetime.now()
 
     class Config:
         orm_mode = True
