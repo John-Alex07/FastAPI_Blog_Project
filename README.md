@@ -23,3 +23,14 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 
 The project follows a structured folder layout:
 
+root
+├── config
+│ └── database.py
+├── models
+│ └── user.py
+├── routes
+│ ├── authentication.py
+│ └── blogs.py
+├── main.py
+├── docker-compose.yml
+└── Dockerfile
