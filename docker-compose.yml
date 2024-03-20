@@ -1,18 +1,16 @@
-version: '3.10'
+version: '3.8'
 
 services:
   app:
-    build:
-      context: .
+    build: .
     ports:
-      - "80:80"
-    depends_on:
-      - db
+      - "8000:80"
     environment:
-      - MONGODB_URL=mongodb://db:27017/Blog_Base
+      MONGODB_URL: "mongodb+srv://admin:admin@demo.d6mozcq.mongodb.net/?retryWrites=true&w=majority"
+    depends_on:
+      - mongodb
 
-  db:
+  mongodb:
     image: mongo:latest
     ports:
       - "27017:27017"
-
