@@ -22,7 +22,7 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 ## Project Structure
 
 The project follows a structured folder layout:
-``
+```
 root
 ├── config
 │   └── database.py
@@ -34,4 +34,4 @@ root
 ├── main.py
 ├── docker-compose.yml
 └── Dockerfile
-``
+```
