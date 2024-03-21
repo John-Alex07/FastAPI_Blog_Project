@@ -139,3 +139,6 @@ root
 - **Method:** GET
 - **Description:** Retrieves all blog posts associated with tags of the authenticated user.
 
+## Deployment
+
+This project is deployed using Docker and Render.
