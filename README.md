@@ -12,7 +12,7 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 - Dockerized API deployment
 
   
-## Asynchronous Programming, Motor Library and Authentication
+## Asynchronous Programming and Motor Library
 
 ### Asynchronous Functions
 
