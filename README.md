@@ -12,7 +12,7 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 - Dockerized API deployment
 
   
-## Asynchronous Programming and Motor Library
+## Asynchronous Programming, Motor Library and Authentication
 
 ### Asynchronous Functions
 
@@ -25,6 +25,13 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 - **Asynchronous MongoDB Driver**: Motor provides an async API for interacting with MongoDB databases, optimized for asyncio-based frameworks like FastAPI.
 - **Efficient I/O Operations**: Optimizes database interactions using asynchronous I/O operations, allowing the application to continue executing tasks while awaiting database responses.
 - **Integration with FastAPI**: Seamlessly integrates with FastAPI to build responsive and scalable web services that efficiently manage MongoDB interactions.
+
+## User Authentication and Authorization
+
+- **JWT (JSON Web Tokens)**: Implements user authentication using JWT, allowing users to securely authenticate and receive access tokens for subsequent requests.
+- **Authorization Middleware**: Utilizes OAuth2 bearer token authentication scheme to protect routes and authorize access to specific endpoints based on the validity of the access token.
+- **Secure Access Control**: Ensures that only authenticated users with valid access tokens can access protected resources, enhancing security and preventing unauthorized access.
+
 
 ## Technology Stack
 
