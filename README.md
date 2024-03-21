@@ -10,7 +10,8 @@ Welcome to the FastAPI Blog API project! This project demonstrates proficiency i
 - CRUD operations for blog data (Create, Read, Update, Delete)
 - Pagination and sorting of blog content
 - Dockerized API deployment
-- 
+
+  
 ## Asynchronous Programming and Motor Library
 
 ### Asynchronous Functions
